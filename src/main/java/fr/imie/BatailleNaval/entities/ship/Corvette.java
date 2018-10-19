@@ -3,6 +3,9 @@
  */
 package fr.imie.BatailleNaval.entities.ship;
 
+import java.util.ArrayList;
+
+import fr.imie.BatailleNaval.entities.Case;
 import fr.imie.BatailleNaval.entities.Default_ship;
 
 /**
@@ -10,6 +13,8 @@ import fr.imie.BatailleNaval.entities.Default_ship;
  *
  */
 public class Corvette extends Default_ship {
-	
+	public Corvette (int id, int width, int nb, ArrayList<Case> array_ship){
+		super(1,1,1,array_ship);
+	}
 
 }

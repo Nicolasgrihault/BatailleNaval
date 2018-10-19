@@ -3,28 +3,38 @@
  */
 package fr.imie.BatailleNaval.entities;
 
+import java.util.ArrayList;
+
 /**
  * @author NicolasG
  *
  */
 public abstract class Default_ship {
-	private int Id;
-	private int Width;
-	private int Nb;
+	
+	private int id;
+	private int width;
+	private int nb;
+	private ArrayList<Case> array_ship;
 	
 	public int getId() {
-		return Id;
+		return id;
 	}
 	public int getWidth() {
-		return Width;
+		return width;
 	}
 	public int getNb() {
-		return Nb;
+		return nb;
 	}
-	
-	private Default_ship (int Id, int Width, int Nb) {
-		this.Id = Id;
-		this.Width = Width;
-		this.Nb = Nb;
+	public ArrayList<Case> getArray_ship() {
+		return array_ship;
 	}
+
+	public Default_ship(int id, int width, int nb, ArrayList<Case> array_ship) {
+		super();
+		this.id = id;
+		this.width = width;
+		this.nb = nb;
+		this.array_ship = array_ship;
+	}
+
 }

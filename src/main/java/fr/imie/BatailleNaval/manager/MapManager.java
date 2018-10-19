@@ -8,5 +8,5 @@ package fr.imie.BatailleNaval.manager;
  *
  */
 public class MapManager {
-
+	
 }
