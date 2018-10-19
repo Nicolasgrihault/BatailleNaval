@@ -24,21 +24,9 @@ public class MapManager {
 	private Croiseur croiseur;
 	private Porte_avion porte_avion;
 	private Map map;
-	private Joueur ;
-	private Joueur 
+
 	
-	/*public int TestPlaceBateau () {
-		private int x;
-		private int y;
-		private int direction;
-		private int i;
-		private boolean flag;
-		
-		boolean flag = true;
-		
-	}*/
-	
-	public ArrayList<Default_ship> PlaceBateau(Joueur joueur){
+	public int PlaceToutBateau(Map map){
 		private int i;
 		for (i=1; i < corvette.getNb(); i++) {
 			TestPlaceBateau();
@@ -52,6 +40,7 @@ public class MapManager {
 		for (i=1; i < porte_avion.getNb(); i++) {
 			TestPlaceBateau();
 		}
+		return 0;
 	}
 	
 	
