@@ -24,12 +24,13 @@ public class MapManager {
 	private Croiseur croiseur;
 	private Porte_avion porte_avion;
 	private Map map;
+	private Joueur joueur;
 
 	
-	public int PlaceToutBateau(Map map){
+	public ArrayList<Default_ship> creer_flotte (Joueur joueur){
 		private int i;
 		for (i=1; i < corvette.getNb(); i++) {
-			TestPlaceBateau();
+			Test_creation_array_ship();
 		}
 		for (i=1; i < destroyer.getNb(); i++) {
 			TestPlaceBateau();
@@ -39,9 +40,9 @@ public class MapManager {
 		}
 		for (i=1; i < porte_avion.getNb(); i++) {
 			TestPlaceBateau();
-		}
+		}S
 		return 0;
 	}
 	
-	
+	aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 }
